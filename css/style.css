@@ -35,7 +35,7 @@ body {
     display: flex;
     flex-direction: column;
     box-shadow: 0 5px 202px rgba(0,0,0,0.5);
-    transition: 0.3s ease-in-out;
+    transition: 0.1s ease-in-out;
 }
 
 .container .card:hover
@@ -66,7 +66,7 @@ body {
     color: #111;
     visibility: hidden;
     opacity: 0;
-    transition: 0.3s ease-in-out;
+    transition: 0.1s ease-in-out;
 }
 
 .container .card:hover .content
@@ -74,7 +74,7 @@ body {
     visibility: visible;
     opacity: 1;
     margin-top: -40px;
-    transition-delay: 0.3s;
+    transition-delay: 0.1s;
 }
 
 /*Media Q*/
